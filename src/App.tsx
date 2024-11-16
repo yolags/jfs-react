@@ -1,3 +1,4 @@
+import useSmoothScroll from './hooks/useSmoothScroll';
 import Header from './components/Header/header';
 import Home from './components/Home/home';
 import Bio from './components/Bio/bio';
@@ -9,9 +10,11 @@ import Footer from './components/Footer/footer';
 import './App.css'
 
 function App() {
+    useSmoothScroll();
+
     return (
         <>
-        <Header />
+            <Header />
             <main>
                 <Home />
                 <Bio />
@@ -20,9 +23,9 @@ function App() {
                 <Classes />
                 <Contact />
             </main>
-        <Footer />
+            <Footer />
         </>
-    )
+    );
 }
 
-export default App
+export default App;

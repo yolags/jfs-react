@@ -73,7 +73,9 @@ const Classes: React.FC = () => {
                             </li>
                         </ul>
                     </article> 
-                    <a href="" className="class-card__link">Saber más</a>           
+                    <div className="class-card__link-container">
+                        <a href="#contacto" className="class-card__link">Saber más</a>
+                    </div>        
                 </div>
             </div>    
         </section>
