@@ -2,15 +2,15 @@ import React from 'react';
 
 const Music: React.FC = () => {
     return (
-        <section id="music" className="music">
+        <section id="musica" className="music">
             <div className="music__upcoming">
                 <h2 className="music__title" data-aos="fade-up" data-aos-duration="1000">MÚSICA</h2>
                 <div className="music__content-container" data-aos="fade-up" data-aos-duration="1000">
                     <div className="music__info">
-                        <h3 className="music__subtitle">PRÓXIMO LANZAMIENTO</h3>
+                        {/* <h3 className="music__subtitle">PRÓXIMO LANZAMIENTO</h3> */}
                         <h4 className="music__song-title">"Vaivén"</h4>
-                        <img src="./img/disc-art.jpg" alt="Portada del próximo sencillo Vaivén" className="music__image" data-aos="fade-up" data-aos-duration="1000" loading="lazy"/>
-                        <p className="music__description">Mi nuevo sencillo, ‘[Nombre de la canción]’, es una exploración de sonidos y emociones que llevo tiempo deseando compartir. Disponible pronto en Spotify.</p>
+                        <img src="src/assets/images/music/vaiven.webp" alt="Portada del próximo sencillo Vaivén" className="music__image" data-aos="fade-up" data-aos-duration="1000" loading="lazy"/>
+                        <p className="music__description">Una pieza sobre el ir y venir de la mente y el corazón frente a la decisión de emigrar.</p>
                     </div>
                     <div className="music__spotify-preview">
                         <iframe className="music__spotify-iframe" src="https://open.spotify.com/embed/track/1PtNGxIGlraZpgnWyoKTpZ?utm_source=generator" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"  title="Reproductor de música de Spotify"></iframe>

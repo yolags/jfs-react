@@ -7,9 +7,12 @@ const Header: React.FC = () => {
             <h1 className="header__title">JOSÉ FRANCISCO SÁNCHEZ</h1>
             <nav className="navbar" id="navbar" aria-label="Menú principal">
                 <ul className="navbar__list" id="menu">
-                    {['Inicio', 'Bio', 'Clases', 'Música', 'Proyectos', 'Contacto'].map((item) => (
+                    {['Home', 'Bio', 'Clases', 'Música', 'Proyectos', 'Contacto'].map((item) => (
                         <li className="navbar__item icon-hover-efect" key={item}>
-                            <a href={`#${item.toLowerCase()}`} className="navbar__link">
+                            <a 
+                                href={`#${item === 'Música' ? 'musica' : item.toLowerCase()}`} 
+                                className="navbar__link"
+                            >
                                 {item}
                             </a>
                         </li>

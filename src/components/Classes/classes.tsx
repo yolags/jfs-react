@@ -3,14 +3,14 @@ import React from 'react';
 
 const Classes: React.FC = () => {
     return (
-        <section id="classes" className="classes">
+        <section id="clases" className="classes">
             <div className="classes__banner">
                 <h2 className="classes__title" data-aos="fade-up" data-aos-duration="1000">CLASES</h2>
             </div>
             <div className="classes__content" data-aos="fade-up" data-aos-duration="1000">
                 <p className="classes__intro">
-                    Mi método parte de tu necesidad, si quieres aprender de forma sencilla tus canciones favoritas o si quieres entender por qué hay diferentes tipos de escalas, acordes, cómo se puede improvisar o componer, te puedo acompañar en el proceso.<br/><br/>
-                    Creo que la música es una forma de expresión que favorece el encuentro.
+                Mi método parte de tu necesidad, si quieres aprender de forma sencilla tus canciones favoritas en un programa corto de clases o si quieres profundizar en la armonía, improvisación o composición, te puedo acompañar en el proceso con clases particulares o grupales.<br/><br/>
+                Creo que la música es una forma de expresión que favorece el encuentro.
                 </p>
                 <div className="classes__cards" data-aos="fade-up" data-aos-duration="1000">
                     <article className="class-card class-card--individual icon-hover-efect">
@@ -32,7 +32,6 @@ const Classes: React.FC = () => {
                                 Práctica técnica y teoría musical
                             </li>
                         </ul>
-                        <a href="#" className="class-card__link">Saber más</a>
                     </article>
                     <article className="class-card class-card--group icon-hover-efect">
                         <div className="class-card__header">
@@ -53,7 +52,6 @@ const Classes: React.FC = () => {
                                 Desarrollo de ensamble musical
                             </li>
                         </ul>
-                        <a href="#" className="class-card__link">Saber más</a>
                     </article>
                     <article className="class-card class-card--ensemble icon-hover-efect">
                         <div className="class-card__header">
@@ -63,19 +61,19 @@ const Classes: React.FC = () => {
                         <ul className="class-card__features">
                             <li className="class-card__feature">
                                 <span className="class-card__bullet mdi--guitar-pick"></span>
-                                Participa en ensambles musicales
+                                Haz música en vivo con otros músicos en un estudio
                             </li>
                             <li className="class-card__feature">
                                 <span className="class-card__bullet mdi--guitar-pick"></span>
-                                Toca en vivo con otros músicos
+                                Aprende en un ambiente adecuado, respetuoso y creativo
                             </li>
                             <li className="class-card__feature">
                                 <span className="class-card__bullet mdi--guitar-pick"></span>
-                                Clases prácticas de interpretación
+                                Aprende los fundamentos para hacer tus propios arreglos
                             </li>
                         </ul>
-                        <a href="#" className="class-card__link">Saber más</a>
-                    </article>            
+                    </article> 
+                    <a href="" className="class-card__link">Saber más</a>           
                 </div>
             </div>    
         </section>

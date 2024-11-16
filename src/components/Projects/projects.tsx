@@ -2,12 +2,12 @@ import React from 'react';
 
 const Projects: React.FC = () => {
     return (
-        <section id="projects" className="projects section-section">
+        <section id="proyectos" className="projects section-section">
             <h2 className="projects__title" data-aos="fade-up" data-aos-duration="1000">PROYECTOS</h2>
             <div className="projects__cards">
                 <article className="project-card" data-aos="fade-up" data-aos-duration="1000">
                     <div className="project-card__image-container">
-                        <img src="./img/disc-art.jpg" alt="Imagen del agrupación Samanes" className="project-card__image" loading="lazy"/>
+                        <img src="src\assets\images\projects\proyecto-samanes.webp" alt="Imagen del agrupación Samanes" className="project-card__image" loading="lazy"/>
                         <div className="project-card__overlay">
                             <h3 className="project-card__title">Samanes</h3>
                         </div>
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
                 </article>
                 <article className="project-card" data-aos="fade-up" data-aos-duration="1000">
                     <div className="project-card__image-container">
-                        <img src="./img/jose-francisco-sanchez-bg.webp" alt="Imagen del Proyecto Venezuela Música y Trabajo" className="project-card__image" loading="lazy"/>
+                        <img src="src\assets\images\projects\venezuela-musica-trabajo.webp" alt="Imagen del Proyecto Venezuela Música y Trabajo" className="project-card__image" loading="lazy"/>
                         <div className="project-card__overlay">
                             <h3 className="project-card__title">Venezuela Música y Trabajo</h3>
                         </div>
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
                 </article>
                 <article className="project-card" data-aos="fade-up" data-aos-duration="1000">
                     <div className="project-card__image-container">
-                        <img src="./img/jose-francisco-sanchez-clases.webp" alt="Imagen de la agrupación Caribe Mediterráneo" className="project-card__image" loading="lazy"/>
+                        <img src="src\assets\images\projects\caribe-mediterraneo.webp" alt="Imagen de la agrupación Caribe Mediterráneo" className="project-card__image" loading="lazy"/>
                         <div className="project-card__overlay">
                             <h3 className="project-card__title">Caribe Mediterráneo</h3>
                         </div>

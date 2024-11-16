@@ -19,7 +19,7 @@ const Bio: React.FC = () => {
                 </div>
                 <div className="bio__image-wrapper">
                     <img
-                        src="./assets/jose-francisco-sanchez-bio.webp"
+                        src="src/assets/images/bio/jfrancisco-electric-guitar-bio.webp"
                         alt="José Francisco Sánchez"
                         className="bio__image"
                         loading="lazy"

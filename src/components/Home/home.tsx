@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home: React.FC = () => {
     return (
-        <div id="home" className="home" role="region">
+        <div id="inicio" className="home" role="region">
             <div className="home__content">
                 <img src="src\assets\images\jfrancisco-jazz-guitar.webp" alt="José Francisco Sánchez tocando la guitarra" className="home__image"/>
                 <div className="home__social">
