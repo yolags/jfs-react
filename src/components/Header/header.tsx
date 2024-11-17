@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                 aria-label="Menú principal"
             >
                 <ul className={`navbar__list ${isMenuOpen ? 'open' : ''}`} id="menu">
-                    {['Inicio', 'Bio', 'Clases', 'Música', 'Proyectos', 'Contacto'].map((item) => (
+                    {['Inicio', 'Bio', 'Música', 'Proyectos','Clases','Contacto'].map((item) => (
                         <li className="navbar__item icon-hover-efect" key={item}>
                             <a
                                 href={`#${item === 'Música' ? 'musica' : item.toLowerCase()}`}

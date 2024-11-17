@@ -72,10 +72,7 @@ const Classes: React.FC = () => {
                                 Aprende los fundamentos para hacer tus propios arreglos
                             </li>
                         </ul>
-                    </article> 
-                    <div className="class-card__link-container">
-                        <a href="#contacto" className="class-card__link">Saber más</a>
-                    </div>        
+                    </article>  
                 </div>
             </div>    
         </section>
