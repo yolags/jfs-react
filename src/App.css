@@ -74,7 +74,7 @@ p {
 .header__title {
   text-align: center;
   padding: 5px 0 5px;
-  color: var(--color-primary);
+  color: #ffff;
   letter-spacing: 0.5rem;
 }
 
@@ -105,10 +105,6 @@ p {
   letter-spacing: 0.2rem;
   color: var(--color-primary);
   text-decoration: none;
-}
-
-.navbar__link:focus {
-  outline: 2px solid var(--color-highlight);
 }
 
 .navbar--fixed {
@@ -978,29 +974,38 @@ h2, .projects__title {
       background-image: none;
   }
   .music__title {
-      padding: 80px 40px 10px 40px;
-  }
+    padding: 30px 40px 10px 40px;
+}
   .music__content-container{
       display: flex;
       flex-direction: column;
   }
+  .music__upcoming {
+    padding-bottom: 30px;
+}
+.music__song-title {
+  font-size: 1.7em;
+}
   .music__description{
       padding: 0 20px;
   }
   .music__videos {
       background-color: #16160e;
   }
-  .section-section{
-      padding: 80px 40px;
-  }
+  .section-section {
+    padding: 30px 40px 30px;
+}
   .projects__title {
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    padding-bottom: 15px;
 }
   .projects__cards {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
 }
 .project-card {
   max-width: 100%;
@@ -1014,8 +1019,8 @@ h2, .projects__title {
   .project-card__title {
       font-size: 1.5rem;
   }
-  .section-section.contact {
-      padding-top: 0px;
+  .contact__info {
+    padding: 0;
   }
   .footer{
       padding: 40px;

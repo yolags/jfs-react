@@ -8,7 +8,7 @@ const Music: React.FC = () => {
                 <div className="music__content-container" data-aos="fade-up" data-aos-duration="1000">
                     <div className="music__info">
                         {/* <h3 className="music__subtitle">PRÓXIMO LANZAMIENTO</h3> */}
-                        <h4 className="music__song-title">"Vaivén"</h4>
+                        <h4 className="music__song-title">Vaivén</h4>
                         <img src="src/assets/images/music/vaiven.webp" alt="Portada del próximo sencillo Vaivén" className="music__image" data-aos="fade-up" data-aos-duration="1000" loading="lazy"/>
                         <p className="music__description">Una pieza sobre el ir y venir de la mente y el corazón frente a la decisión de emigrar.</p>
                     </div>

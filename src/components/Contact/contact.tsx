@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
     return (
         <section id="contacto" className="contact">
             <div className='contact__overlay'>
-                <div className="contact__container" data-aos="fade-up" data-aos-duration="1000">
+                <div className="contact__container section-section" data-aos="fade-up" data-aos-duration="1000">
                     <h2 className="contact__title" data-aos="fade-up" data-aos-duration="1000">CONTACTO</h2>   
                     <p className="contact__description">¿Tienes preguntas o quieres saber más sobre mis clases o proyectos? No dudes en escribirme.</p>
                     <div className="contact__info">
