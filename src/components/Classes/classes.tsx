@@ -13,7 +13,7 @@ const Classes: React.FC = () => {
                 Creo que la música es una forma de expresión que favorece el encuentro.
                 </p>
                 <div className="classes__cards" data-aos="fade-up" data-aos-duration="1000">
-                    <article className="class-card class-card--individual icon-hover-efect">
+                    <article className="class-card class-card--individual">
                         <div className="class-card__header">
                             <h3 className="class-card__title">Clases<br/>individuales</h3>
                             <span className="class-card__icon class-card__icon--individual"></span>
@@ -33,7 +33,7 @@ const Classes: React.FC = () => {
                             </li>
                         </ul>
                     </article>
-                    <article className="class-card class-card--group icon-hover-efect">
+                    <article className="class-card class-card--group">
                         <div className="class-card__header">
                             <h3 className="class-card__title">Clases<br/>colectivas</h3>
                             <span className="class-card__icon class-card__icon--group"></span>
@@ -53,7 +53,7 @@ const Classes: React.FC = () => {
                             </li>
                         </ul>
                     </article>
-                    <article className="class-card class-card--ensemble icon-hover-efect">
+                    <article className="class-card class-card--ensemble">
                         <div className="class-card__header">
                             <h3 className="class-card__title">Ensamble<br/>didáctico</h3>
                             <span className="class-card__icon class-card__icon--ensemble"></span>
