@@ -72,11 +72,9 @@ const Projects: React.FC = () => {
                                 className="project-card__image"
                                 loading="lazy"
                             />
-                            <div className="project-card__overlay">
-                                <h3 className="project-card__title">{project.title}</h3>
-                            </div>
                         </div>
                         <div className="project-card__content">
+                            <h3 className="project-card__title">{project.title}</h3>
                             <p className="project-card__description">{project.description}</p>
                             <div className="project-card__labels">
                                 {project.links.map((link) => (
